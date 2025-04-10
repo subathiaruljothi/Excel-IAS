@@ -1,0 +1,182 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "PT Serif", serif;
+}
+body{
+    background-color: #f3f5f5 !important;
+}
+/* poilce */
+.police{
+    padding: 80px 0 80px 0;
+    .container{
+        background-color: #ffffff;
+        padding-right: unset !important;
+        padding-left: unset !important;
+    }
+    .sub-title{
+        background-color: #eeeeee;
+        width: 100%;
+        .images{
+            padding: 0 40px 40px 0;
+            margin-top: -12%;
+            img{
+                border-radius: 70px;
+            }
+        }
+    }
+    h2{
+        margin: 23px 0 0 0;
+        padding: 70px 94px;
+        color: #0d19a3;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .image{
+        padding: 30px 0 10px 0;
+        text-align: center;
+    }
+    .sub-content{
+        padding: 20px 0 30px 90px;
+        a{
+            color: #494B51;
+            &&:hover{
+                text-decoration: none;
+            }
+            h1{
+                font-size: 30px;
+                text-transform: uppercase;
+                width: fit-content;
+                font-weight: bold;
+                margin: 30px 0 20px 0;
+            }
+        }
+        .breadcrumb a{
+            color: #0d19a3;
+            font-weight: 500;
+            font-size: 17px;
+        }
+        .btn-read a{
+            color: #0d19a3;
+            font-weight: 500;
+        }
+    }
+    .third .image{
+        margin: 0 0 0 61px;
+    }
+    .five .image{
+        text-align: unset !important;
+        margin: 0 0 0 90px;
+    }
+    .h1{
+        top: -20px;
+        position: relative;
+    }
+    .group-3 .image{
+        text-align: unset !important;
+        margin: 0 0 0 90px;
+    }
+    .d-flex{
+        display:unset !important;
+    }
+    .form-control{
+        display: unset !important;
+        width: 20% !important;
+        &&:focus{
+            border: 1px dashed #0d19a3;
+            outline: #0d19a3;
+            box-shadow: none;
+        }
+    }
+    .search{
+        padding: 20px 0 70px 40px;
+        .btn-outline-success{
+            margin: 0 0 0 10px;
+            color: #ffffff !important;
+            background-color: #0d19a3 !important;
+            border-color: #0d19a3;
+            padding: 8px 30px;
+            border-radius: 20px;
+            &&:focus{
+                box-shadow: none !important;
+            }
+        }
+    }
+    .tab{
+        text-align: center;
+        padding: 10px 0 50px 0;
+        .tab-active{
+            color: #494B51;
+        }
+        a{
+            color: #0d19a3;
+            font-weight: 500;
+            margin: 0 26px 0 0;
+            &&:hover{
+                text-decoration: none;
+            }
+        }
+        .end{
+            text-align: end !important;
+            margin-top: -26px;
+            margin-right: 32px;
+            a{
+                color: #0d19a3; 
+                font-weight: 500;
+                &&:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+        .start{
+            text-align: start !important;
+            margin-top: -26px;
+            margin-left: 32px;
+            a{
+                &&:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+/* mobile response */
+
+@media only screen and (max-width:991px){
+       /* police */
+     .police {
+        padding: 20px 0 80px 0;
+        overflow: hidden;
+        h2{
+            padding: 48px 94px;
+        }
+        img{
+            width: 93% !important;
+        }
+        .sub-content {
+            padding: 20px 8px 0 19px;
+        }
+        .third .image {
+            margin: unset;
+        }
+        .five .image {
+            margin: 0 0 0 54px;
+        }
+        .images img{
+            width: 20% !important;
+        }
+        .tab .start{
+            margin-left: 2px;
+        }
+        .tab .end{
+            margin-right: -11px;
+        }
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    .sub-content {
+        padding: 20px 8px 0 19px !important;
+    }
+}

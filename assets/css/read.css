@@ -1,0 +1,189 @@
+body{
+    background-color: #f3f5f5 !important;
+}
+.read{
+    padding: 80px 0 80px 0;
+    .container{
+        background-color: #ffffff;
+    }
+    h2{
+        padding: 70px 30px;
+        color: #0d19a3;
+        font-size: 40px;
+    }
+    .image{
+        padding: 10px 0 10px 0;
+        text-align: center;
+    }
+    .sub-content{
+        padding: 20px 12px 30px 78px;
+        .sub-title{
+            a{
+                color: #000000;
+                text-decoration: none;
+                h1{
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    width: fit-content;
+                    font-weight: bold;
+                    margin: 30px 0 10px 0;
+                }
+            }
+        }
+        .breadcrumb a{
+            color: #0d19a3;
+            font-weight: 600;
+            font-size: 18px;
+            &&:hover{
+                text-decoration: none;
+            }
+        }
+        p{
+            color: #494B51;
+            font-size: 16px;
+            line-break: 27px;
+        }
+    }
+    .read-video iframe{
+        width: 100%;
+    }
+    .leave{
+        padding: 50px 0 60px 0;
+        h1{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        p{
+            color: #494B51;
+            font-weight: 500;
+        }
+        .validate{
+            textarea{
+                outline: unset;
+                height: unset;
+                border-color: #dbdcdf;
+                margin: 0 0 30px 0;
+                padding: 10px 0 0 10px;
+                line-height: unset;
+                &&:focus{
+                    outline: unset;
+                    border: 1px solid #0d19a3;
+                }
+            }
+            input{
+                outline: unset;
+                border: 1px solid #dbdcdf;
+                width: 94%;
+                padding: 12px 15px;
+                color: #494B51;
+                &&:focus{
+                    outline: unset;
+                    border: 2px solid #000000;
+                }
+            }
+        }
+    }
+    .check{
+        margin: 30px 0 0 0;
+        color: #494B51;
+        font-weight: 500;
+    }
+    .btn-post{
+        margin: 30px 0 0 0;
+        button{
+            background-color: #0d19a3;
+            padding: 12px 30px;
+            color: #ffffff;
+            font-size: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-color: #0d19a3;
+        }
+        a{
+            background-color: #0d19a3;
+            padding: 12px 30px;
+            color: #ffffff;
+            font-size: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+    .split-img .read-img{
+        margin: 20px 0 20px 0;
+    }
+}
+.post{
+    padding: 20px 70px;
+    .container{
+        background-color: unset !important;
+    }
+    a{
+        color: #0d19a3;
+        font-size: 18px;
+        font-weight: 500;
+        &&:hover{
+            text-decoration: none;
+            color: #0d19a3 !important;
+        }
+    }
+}
+.end{
+    text-align: end;
+    margin-top: -21px;
+}
+.third .sub-content {
+    padding: 20px 12px 30px 48px !important;
+}
+.five .image{
+    text-align: unset !important;
+    margin: 0 0 0 81px;
+}
+.image-trp{
+    padding: 0 78px !important;
+}
+
+/* mobile responce */
+
+@media only screen and (max-width:991px){
+    .read{
+        padding: 20px 0 80px 0;
+        overflow: hidden;
+        img{
+            width: 93% !important;
+        }
+        .sub-content {
+            padding: 20px 8px 0 19px !important;
+        }
+    }
+    .end{
+        margin-top: -29px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .sub-content {
+        padding: 20px 8px 0 19px !important;
+    }
+    .leave {
+        padding: 50px 24px 60px 18px !important;
+    }
+    .read {
+        .leave {
+            .validate {
+                input {
+                    margin: 10px !important;
+                }
+            }
+        }
+    }
+    .start{
+        margin-left: -48px;
+    }
+    .end{
+        margin-right: -36px;
+    }
+}

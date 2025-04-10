@@ -1,0 +1,85 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "PT Serif", serif;
+}
+body{
+    background-color: #f3f5f5 !important;
+}
+a{
+    cursor: pointer !important;
+}
+/* poilce */
+.trp{
+    padding: 80px 0 80px 0;
+    .container{
+        background-color: #ffffff;
+        padding-right: unset !important;
+        padding-left: unset !important;
+    }
+    .sub-title{
+        background-color: #eeeeee;
+        width: 100%;
+    }
+    h2{
+        padding: 70px 30px;
+        color: #0d19a3;
+        font-size: 40px;
+    }
+    .image{
+        padding: 30px 0 10px 0;
+        text-align: center;
+    }
+    .sub-content{
+        padding: 20px 0 30px 90px;
+        a{
+            color: #494B51;
+            &&:hover{
+                text-decoration: none;
+            }
+            h1{
+                font-size: 30px;
+                text-transform: uppercase;
+                width: fit-content;
+                font-weight: bold;
+                margin: 30px 0 20px 0;
+            }
+        }
+        .breadcrumb a{
+            color: #0d19a3;
+            font-weight: 500;
+        }
+        .btn-read a{
+            color: #0d19a3;
+            font-weight: 500;
+        }
+    }
+    .third .image{
+        margin: 0 0 0 61px;
+    }
+    .five .image{
+        text-align: unset !important;
+        margin: 0 0 0 90px;
+    }
+    .h1{
+        top: -20px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .trp{
+        padding: 20px 0 80px 0;
+        overflow: hidden;
+        img{
+            width: 93% !important;
+        }
+        .sub-content {
+            padding: 20px 8px 0 19px  !important;
+        }
+    }
+}
+
+@media only screen and (max-width:767px){
+    .sub-content {
+        padding: 20px 8px 0 19px !important;
+    }
+}
